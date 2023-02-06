@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">  
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <main>
+        <div class="texth2">
+            <h2 id="up">Generate a</h2>
+            <h2 id="down">random Password</h2>
+        </div>
+        <div>
+            <h5>Never use an insecure password again.</h5>
+            <p id="bottom-border"></p>
+        </div>
+        <button class="genbtn" id="generator"">Generate Password</button>
+            <div class="copy-btns">
+                <button class="copy" onclick="copy();">
+                    <input id="text-el">
+                </button>
+                <button class="copy"  onclick="kopya();">
+                    <input id="text">
+                </button>
+            </div>
+            <div class="rang">
+            <div>Range: </div>
+            <input type="range" name="rangeInput" min="8" max="16" step="1" value="11" onchange="updateTextInput(this.value);">
+            <input type="text" maxlength="0" id="textInput" value="11">
+            </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
