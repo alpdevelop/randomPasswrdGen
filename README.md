@@ -1,3 +1,3 @@
 ## Simple Random Password Generator
 
-![](https://media.giphy.com/media/v9BsCXkipc734TJIn6/giphy.gif)
+![](https://media.giphy.com/media/cMHDd04FKXRaRLL1W1/giphy.gif)
